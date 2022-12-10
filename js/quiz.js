@@ -55,6 +55,7 @@ $(function(){
                     dataFromDb['Q'+page] = data;
                     load(data);
                     
+                    
                 }
             );
         }
@@ -145,7 +146,8 @@ $(function(){
                 // localStorage.setItem('answers', JSON.stringify(existing));
                 
                 answers['q' + index] = selectedValue;
-                console.log(answers);
+                // console.log(answers);
+            //    console.log(dataFromDb);
             }
 
             if(dataFromDb['Q' + page]){
